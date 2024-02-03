@@ -1,0 +1,94 @@
+.body {
+    margin: 0;
+}
+
+.nav-bar nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.main {
+    display: flex;
+}
+
+.post-box {
+    background-color: whitesmoke;
+    height: 770px;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-upper {
+    display: flex;
+}
+
+.post-lower {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#post-btn {
+    border-radius: 15px;
+    padding: 5px;
+    width: 60px;
+    color: white;
+    background-color: rgb(66, 66, 248);
+}
+
+.chat-posts {
+    padding-left: 20px;
+    width: 25%;
+}
+
+
+
+.post-main {
+    display: flex;
+}
+
+.post-right {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.post-det {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.like-cmnt-btns {
+    width: 70px;
+    margin-right: 150px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.comment-post {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+#like-btn.liked {
+    background-color: red;
+}
